@@ -1,0 +1,77 @@
+#logoAndNav {
+    height: 40%;
+    width: 96%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right:2%;
+}
+#logo {
+    float:left;
+    width: 30%;
+    height:100%;
+   }
+#logoImg {
+    width: 90%;
+    height: 100%;
+    
+}
+#nav {
+    width: 70%;
+    height:45%;
+    float:right;
+}
+.NavR
+    {
+        display: inline;
+    }
+.packing {
+    background-color: aqua;
+}
+.NavItem 
+    {
+        position: static;
+        list-style-type: none;
+        float: left;
+        width: 15%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;                
+    }            
+.NavItem a 
+    {  
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        padding: 15px 15px ;
+        color: #000000;
+    }
+.dropDown 
+    {
+        list-style-type: none;
+        display: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:aliceblue;
+    }
+    .NavItem:hover a
+    {     
+        color:tomato;
+    }
+.NavItem:hover .dropDown
+    {
+        display: block;
+    }
+.dropDownList
+    {
+        display: block;
+        text-align: center;
+        padding:8px 16px;
+        color: #000000;
+    }        
+.dropDownList:hover
+    {
+        background-color: antiquewhite;
+    }
